@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(pink, lightblue);
+  text-align: center;
+  color: white;
+}
+
+.container {
+  padding-top: 50px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.slideshow img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  margin-top: 20px;
+  object-fit: cover;
+  box-shadow: 0 0 20px white;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background: white;
+  cursor: pointer;
+}
